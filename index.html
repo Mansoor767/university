@@ -7,13 +7,26 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body id="toTop">
   <div class="main-visual">
     <header>
       <div class="wrapper flex">
         <a href="#" class="logo"><img src="images/caplogo.png" alt="Academic University"></a>
-        <button class="menu"><i class="fas fa-bars"></i></button>
+        <!-- <button class="menu"><i class="fas fa-bars"></i></button> -->
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        </script>
         <ul>
           <li><a href="#">Programmes</a></li>
           <li><a href="#">Research</a></li>
