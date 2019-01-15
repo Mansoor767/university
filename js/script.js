@@ -14,7 +14,7 @@ menuBtn.addEventListener('click', function(){
 var toTopBtn = document.getElementById("toTopBtn");
 
 window.addEventListener('scroll', function() {
-  console.log(window.scrollY)
+  // console.log(window.scrollY)
   if(window.scrollY > 100) {
       toTopBtn.style.display = "flex";
   } else {
