@@ -86,6 +86,7 @@ h2,h3,h4{
 
 .main-visual header.active .main-nav {
   display: block;
+  background-color: grey;
 }
 .main-visual header.active .bar1 {
   transform: rotate(-45deg) translate(-9px, 6px);
@@ -365,8 +366,29 @@ section.pg p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-figure.right_img img {
+figure.right_img3 {
+  background-image: url('../images/event3.jpg');
   height: 230px;
+  background-size: cover;
+  width: calc(100% - 99px);
+  float: left;
+  border: 1px solid black;
+}
+figure.right_img2 {
+  background-image: url('../images/event2.jpg');
+  height: 230px;
+  background-size: cover;
+  width: calc(100% - 99px);
+  float: left;
+  border: 1px solid black;
+}
+figure.right_img1 {
+  background-image: url('../images/event1.jpg');
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  width: calc(100% - 99px);
+  float: left;
   border: 1px solid black;
 }
 .red_box {
