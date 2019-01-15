@@ -524,6 +524,7 @@ html {
   .main-visual header ul {
     display: flex;
     top: 20px;
+    right: 100px;
   }
 
   /******nV-ICON******/
