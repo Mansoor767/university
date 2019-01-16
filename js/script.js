@@ -1,6 +1,6 @@
 // Toggle main menu
-var menuBtn = document.getElementById("menuBtn");
-var topHeader = document.getElementById("topHeader");
+var menuBtn = document.getElementById('menuBtn');
+var topHeader = document.getElementById('topHeader');
 
 menuBtn.addEventListener('click', function(){
   if(topHeader.classList.contains('active')) {
@@ -8,16 +8,16 @@ menuBtn.addEventListener('click', function(){
   } else {
     topHeader.classList.add('active');
   }
-})
+});
 
 // Toggle toTop button
-var toTopBtn = document.getElementById("toTopBtn");
+var toTopBtn = document.getElementById('toTopBtn');
 
 window.addEventListener('scroll', function() {
   // console.log(window.scrollY)
   if(window.scrollY > 100) {
-      toTopBtn.style.display = "flex";
+      toTopBtn.style.display = 'flex';
   } else {
-    toTopBtn.style.display = "none";
+    toTopBtn.style.display = 'none';
   }
-})
+});
