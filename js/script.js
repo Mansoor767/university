@@ -8,7 +8,7 @@ menuBtn.addEventListener('click', function(){
   } else {
     topHeader.classList.add('active');
   }
-});
+}, false);
 
 // Toggle toTop button
 var toTopBtn = document.getElementById('toTopBtn');
@@ -20,4 +20,4 @@ window.addEventListener('scroll', function() {
   } else {
     toTopBtn.style.display = 'none';
   }
-});
+}, false);

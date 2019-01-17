@@ -27,7 +27,7 @@ ul {
 body {
   font-family: sans-serif;
 }
-h2,h3,h4{
+h2,h3,h4 {
   font-family: 'Noto Serif', serif;
 }
 /******************/
@@ -112,7 +112,7 @@ h2,h3,h4{
 .prog_box {
   background-color: #faf8f8;
 }
-.prog_box h2{
+.prog_box h2 {
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
@@ -299,7 +299,7 @@ section.pg p {
 .right {
   text-align: right;
 }
-.right a{
+.right a {
   color: #ea2a10;
   font-size: 12px;
 }
@@ -323,15 +323,13 @@ section.pg p {
   margin: 0 auto 30px;
   padding: 10px 10px;
 }
-.news-events ul li .content {
-}
 .news-events ul li img {
   width: 100%;
 }
 .news-events ul li .calendar img {
   width: 20px;
 }
-.calendar{
+.calendar {
   margin-top: 10px;
 }
 .calendar span {
@@ -430,7 +428,7 @@ figure.right_img {
 /******************/
 /* footer */
 /******************/
-.round_rect_footer span{
+.round_rect_footer span {
   display:none;
 }
 .footer_wrapper {
@@ -463,7 +461,7 @@ section.mail {
   margin-top: 25px;
   word-spacing: 15px;
 }
-.line{
+.line {
   border: 0.5px solid grey;
   width: 100%;
   margin-top: 10px;
@@ -477,7 +475,7 @@ section.mail {
 .copyright p2 {
   color: #ea2a10;
 }
-.wrapper{
+.wrapper {
   padding: 0 30px;
 }
 /******************/
@@ -533,7 +531,7 @@ html {
   right: 100px;
 }
 /******nV-ICON******/
-.container{
+.container {
   display: none;
 }
 /******************/
@@ -691,7 +689,7 @@ section.pg {
   right: 20px;
   bottom: 65px;
 }
-.round_rect_footer span{
+.round_rect_footer span {
   display: flex;
 }
 .for-border {
