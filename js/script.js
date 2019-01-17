@@ -12,7 +12,6 @@ menuBtn.addEventListener('click', function(){
 
 // Toggle toTop button
 var toTopBtn = document.getElementById('toTopBtn');
-
 window.addEventListener('scroll', function() {
   // console.log(window.scrollY)
   if(window.scrollY > 100) {
